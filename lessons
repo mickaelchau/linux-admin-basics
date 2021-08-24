@@ -1,0 +1,22 @@
+etc: configuraton files
+var: files are expected to grow or change, sys & app logs
+bin: executables for boot and processes
+sbin: exec for root users
+lib: bin for systems
+usr: exec for the users 
+cat /etc/passwd
+adduser <new_user>
+sudo passwd -e <user>
+drwxr--r--:w => dir owen: read, write, exec & group: read & everyone : read
+r=4, w=2 et x=1
+sudo chgrp root .bash_history
+sudo chown root .bash_history
+
+Firewall for a server
+sudo ufw default deny incoming (deny everything comming)
+sudo ufw default allow outgoing (allow everything server is sending)
+sudo ufw 2222/tcp (allow tcp in port 2222)
+sudo ufw enable (to activate firewall)
+
+sudo service apache2 start => Launch Apache2
+There used to be a webpage in localhost 80.

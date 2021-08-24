@@ -1,0 +1,9 @@
+Project objective: Learn basic admin commands
+Launch a Web server in a VM
+
+
+
+Quick start:
+vagrant up
+vagrant start
+vagrant ssh
